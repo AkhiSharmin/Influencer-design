@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 .logo__titel{
@@ -149,3 +150,50 @@
 .bg{
     background-color: #0A0826;
 }
+.hide{
+    display: none;
+}
+
+
+/* media quires style */
+@media (max-width:578px){
+    .container{
+        width: 100%;
+    }
+    .logo__titel{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        display: block;
+    }
+    .extra{
+        margin-left: 33px;
+    }
+    .jurney,.popular__container,.infulencer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .cmra__img img{
+        width: 100%;
+    }
+    .website__logos{
+        flex-direction: column;
+    }
+    .img__common img{
+        padding: 10px;
+    }
+    .feature__product{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+}
+
