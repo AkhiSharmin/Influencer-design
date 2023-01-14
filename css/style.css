@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common style */
+.container {
+    padding: 25px 5px;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+/* header section styles */
+.nav__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.logo__titel{
+    font-weight: 700;
+    font-size: 24px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu__container ul li{
+    padding: 5px 34px; 
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+.extra{
+    margin-right: 10px;
+}
+.fa-solid{
+    color: black;
+}
+/* your Journey section style */
+.jurney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jurney__titel{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.jurney__discription{
+    Width:505px;
+    Height:60.9px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+.btn__primary{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+}
+.arow-icon-color{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.cmra__img{
+    background-image: url(../images/Circle\ design.svg);
+}
+/* website name style */
+.website__logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* poluler collection style start */
+.popular__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.flex__tripood{
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.popular__headding{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.flex__tripood{
+    Width:329px;
+    Height:476px;
+}
+.popular__img img{
+    Width:300px;
+    Height:256px;
+}
+.popular__titel{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    padding: 10px 3px;
+}
+.popular__discription{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+.see__more{
+    color: #E02C6D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.arow-icon{
+    color: #E02C6D;
+}
+ /* feature product style start */
+ 
