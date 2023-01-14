@@ -127,4 +127,25 @@
     color: #E02C6D;
 }
  /* feature product style start */
- 
+ .feature__product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+ }
+ .feature__titel{
+    padding: 10px 5px;
+ }
+.descriptio{
+    padding: 10px 5px;
+}
+/* footer section */
+.infulencer{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 35px 10px;
+}
+.bg{
+    background-color: #0A0826;
+}
